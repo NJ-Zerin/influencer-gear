@@ -59,21 +59,18 @@ a:hover {
 #camera {
   background-image: url(images/Circle-design.png);
   background-repeat: no-repeat;
-  background-size: 400px;
+  background-size: 380px;
   margin-top: 50px;
-  /* background-position: right 30px; */
-  /* height: 470px; */
+  background-position: left 30px;
 }
 #camera img {
   width: 370px;
   height: 350px;
-  margin-top: 70px;
-  /* padding-left: 150px; */
-  /* padding-right: 50px; */
+  margin-top: 60px;
 }
 #camera:hover img {
-  transform: scale(1.1);
   transition: transform 1.5s ease-in-out;
+  transform: rotate(360deg) scale(1.1);
 }
 /* logo styles  */
 #logos {
@@ -166,21 +163,22 @@ a:hover {
   position: relative;
 }
 .latest img {
-  width: 380px;
+  width: 350px;
   height: 275px;
   border: 2px solid rgba(5, 5, 131, 0.384);
+  box-shadow: 8px 8px 8px 8px rgba(241, 236, 236, 0.767);
   border-radius: 10px;
   margin-top: 80px;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .late {
   display: none;
-  width: 383px;
+  width: 352px;
   height: 280px;
   position: absolute;
   top: 0;
   margin-top: 80px;
-  margin-left: 30px;
+  margin-left: 15px;
   text-align: center;
   border-radius: 10px;
 }
@@ -283,7 +281,7 @@ margin: auto;
 }
 }
 @media only screen and (min-width:688px) and (max-width: 992px){
-  .container{
+.container{
   max-width: 688px;
   padding: 0px 40px;
 }
@@ -317,6 +315,10 @@ margin: auto;
 }
 .new-feature {
   display: block;
+}
+#tech-news {
+  padding-left: 30px;
+  padding-right: 100px;
 }
 .styling:hover .late {
   display: none;
