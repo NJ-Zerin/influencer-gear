@@ -1,0 +1,324 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@500&family=Libre+Baskerville:wght@400;700&family=Poppins:wght@400;500&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@800&family=Libre+Baskerville:wght@400;700&family=PT+Sans+Narrow&family=Poppins:wght@400;500&family=Prompt&family=Ubuntu&display=swap");
+/* common styles */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0%;
+}
+/* header styles */
+header {
+  width: 100%;
+  background-color: rgb(1, 1, 48);
+  color: white;
+}
+.name {
+  /* margin-left: 30px; */
+  font-weight: 900;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 20px;
+}
+.menu-bar {
+  margin-left: 850px;
+}
+/* main */
+/* 1st part styles  */
+#journey {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+}
+#start {
+  width: 70%;
+  height: 269px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+ h1 {
+  font-size: 40px;
+} 
+#para-1 {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+a:hover {
+  color: rgba(194, 189, 189, 0.596);
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(252, 2, 127), rgb(252, 2, 127));
+  color: white;
+  padding: 8px 25px;
+  border-radius: 20px;
+}
+#camera {
+  background-image: url(images/Circle-design.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  margin-top: 50px;
+  /* background-position: right 30px; */
+  /* height: 470px; */
+}
+#camera img {
+  width: 370px;
+  height: 350px;
+  margin-top: 70px;
+  /* padding-left: 150px; */
+  /* padding-right: 50px; */
+}
+#camera:hover img {
+  transform: scale(1.1);
+  transition: transform 1.5s ease-in-out;
+}
+/* logo styles  */
+#logos {
+  display: flex;
+  border-top: 2px solid rgba(211, 226, 243, 0.418);
+  border-bottom: 2px solid rgba(211, 226, 243, 0.418);
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.logo {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-right: 80px;
+}
+#logo-1 {
+  margin-left: 75px;
+}
+.part-title {
+  text-align: center;
+  margin-top: 140px;
+}
+.part {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: center;
+}
+.card {
+  height: 480px;
+  width: 329px;
+  margin: 20px 10px;
+  box-shadow: 8px 8px 8px 8px rgba(241, 236, 236, 0.767);
+  border: 2px solid rgba(5, 5, 131, 0.384);
+  border-radius: 10px;
+}
+.card-title {
+  font-size: 17.5px;
+  padding-left: 15px;
+}
+.price {
+  font-size: 17.5px;
+  padding-left: 15px;
+  font-weight: 700;
+}
+.card img {
+  width: 300px;
+  height: 256px;
+  padding-top: 12px;
+  padding-left: 15px;
+}
+.ratings {
+  padding-left: 15px;
+}
+.fa-star {
+  font-size: 12px;
+  color: #fb8200;
+}
+.rate {
+  color: #6c6c6c;
+  font-weight: 700;
+  font-size: 12.5px;
+  padding-left: 15px;
+}
+.details {
+  font-size: 13px;
+  font-weight: 700;
+  color: #6c6c6c;
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* extra button  */
+#bottom {
+  position: absolute;
+  bottom: -50px;
+  right: 30px;
+  text-decoration: none;
+  color: rgb(252, 2, 127);
+  font-weight: 700;
+  cursor: pointer;
+}
+/* Own added section  */
+.new-feature {
+  display: flex;
+}
+.styling {
+  position: relative;
+}
+.latest img {
+  width: 380px;
+  height: 275px;
+  border: 2px solid rgba(5, 5, 131, 0.384);
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.late {
+  display: none;
+  width: 383px;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  margin-top: 80px;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.styling:hover .late {
+  display: block;
+  background-color: rgba(196, 189, 181, 0.4);
+}
+.late h3 {
+  width: 100%;
+  margin-left: 0%;
+  background-color: black;
+  color: white;
+}
+.late p {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#tech-news {
+  padding-left: 80px;
+  padding-right: 100px;
+}
+#new-head {
+  padding-top: 70px;
+}
+#new-para {
+  text-align: justify;
+  color: #6c6c6c;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.last-button {
+  text-decoration: none;
+  font-family: "Prompt", sans-serif;
+  background-image: linear-gradient(rgb(252, 2, 127), rgb(252, 2, 127));
+  color: white;
+  font-weight: 700;
+  padding: 8px 25px;
+  border-radius: 15px;
+}
+/* footer styles  */
+footer {
+  background-color: rgb(1, 1, 48);
+  color: white;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  margin: 0;
+  margin-top: 180px;
+  padding-block: 5px;
+}
+#last-h3 {
+  font-size: 27px;
+}
+#last-para-1 {
+  font-size: 13px;
+}
+#last-para-2 {
+  font-size: 13px;
+  padding-left: 10px;
+}
+.icons {
+  font-size: 20px;
+  padding-left: 5px;
+}
+.fab {
+  margin-left: 15px;
+}
+/* Media Queries */
+@media only screen and (max-width: 688px){
+
+.container{
+  max-width: 688px;
+  padding: 0px 40px;
+}
+#journey {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+#start{
+margin: auto;
+}
+#camera {
+  margin-top: 290px;
+}
+#logos {
+  display: none;
+}
+.part {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+.new-feature {
+  display: block;
+}
+.styling:hover .late {
+  display: none;
+}
+}
+@media only screen and (min-width:688px) and (max-width: 992px){
+  .container{
+  max-width: 688px;
+  padding: 0px 40px;
+}
+#start {
+  width: 70%;
+  height: 269px;
+  margin-top: 50px;
+  margin-left: 10px; 
+}
+#camera {
+  background-image: url(images/Circle-design.png);
+  background-repeat: no-repeat;
+  background-size: 290px;
+  margin-top: 100px;
+  margin-left: 30px;
+  background-position: right 170px;
+}
+#camera img {
+  width: 270px;
+  height: 280px;
+  margin-top: 190px;
+  margin-right: 10px;
+}
+#logos {
+  display: none;
+}
+.part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.new-feature {
+  display: block;
+}
+.styling:hover .late {
+  display: none;
+}
+}
