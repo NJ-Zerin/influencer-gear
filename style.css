@@ -161,7 +161,8 @@ a:hover {
 }
 /* Own added section  */
 .new-feature {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 .styling {
   position: relative;
@@ -204,10 +205,11 @@ a:hover {
   padding-right: 15px;
 }
 #tech-news {
-  padding-left: 80px;
-  padding-right: 100px;
+  padding-left: 60px;
+  padding-right: 10px;
 }
-#new-head {
+#tech-news h1 {
+  font-size: 30px;
   padding-top: 70px;
 }
 #new-para {
@@ -283,6 +285,11 @@ margin: auto;
 .new-feature {
   display: block;
 }
+#tech-news {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .styling:hover .late {
   display: none;
 }
